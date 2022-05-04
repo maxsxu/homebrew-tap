@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class CloudsmithCli < Formula
+class Cloudsmith < Formula
   include Language::Python::Virtualenv
 
   desc "Cloudsmith Command Line Interface (CLI)"
