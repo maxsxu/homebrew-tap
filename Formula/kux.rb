@@ -2,10 +2,10 @@ class Kux < Formula
   desc "High-performance Kubernetes terminal UI"
   homepage "https://github.com/maxsxu/kux"
   url "https://github.com/maxsxu/kux.git",
-      revision: "69e5d7dd4266c4f142e0e7a8eb1b7d861aab0c5d"
+      revision: "46ca575cda1ceca96913709f7026bc6b68c61698"
   version "0.1.0"
   license "Apache-2.0"
-  revision 1
+  revision 2
   head "https://github.com/maxsxu/kux.git", branch: "main"
 
   depends_on "rust" => :build
